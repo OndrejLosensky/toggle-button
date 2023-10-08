@@ -1,0 +1,8 @@
+#toggle-button::after {
+    content: '';
+    @apply h-24 w-24 rounded-full bg-buttonColor absolute left-0 top-0 transform scale-75 transition duration-300;
+}
+
+#toggle-button:checked::after {
+    @apply transform scale-75 translate-x-36;
+}

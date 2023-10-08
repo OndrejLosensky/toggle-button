@@ -1,0 +1,20 @@
+{
+    "name": "simple-toggle-button",
+    "version": "1.0.0",
+    "description": "This is simple toggle button you can use on your website",
+    "main": "Toggle.js",
+    "scripts": {
+      "build": "npm build",
+      "publish": "npm publish"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/OndrejLosensky/toggle-button.git"
+    },
+    "author": "losensky-ondrej",
+    "license": "MIT",
+    "peerDependencies": {
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0"
+    }
+  }
