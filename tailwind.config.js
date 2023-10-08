@@ -7,10 +7,10 @@ module.exports = {
   theme: {
   extend: {
     colors: {
-      borderColor: "#27374D",
-      textColor: "#DDE6ED",
-      foreColor: "#526D82",
-      toggleColor: "#9DB2BF",
+      whenNotChecked: "#a9cbf1",
+      whenChecked: "#3487e4",
+      borderColor: "#3487e4",
+      buttonColor: "#ffffff",
     }
   },
   variants: {
