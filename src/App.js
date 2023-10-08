@@ -4,7 +4,7 @@ import Toggle from "./components/toggle/Toggle";
 
 function App() {
   return (
-    <section className="w-full h-screen bg-black">
+    <section className="w-full h-screen bg-slate-400">
         <div>
           <Header/>
         </div>
