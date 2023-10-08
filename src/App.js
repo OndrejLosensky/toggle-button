@@ -6,10 +6,10 @@ function App() {
   return (
     <section className="w-full h-screen bg-black">
         <div>
-         <Header/>
+          <Header/>
         </div>
-        <div>
-         <Toggle/>
+        <div className="flex justify-center items-center h-[80%]">
+          <Toggle/>
         </div>
     </section>
    
