@@ -3,3 +3,11 @@
 @tailwind utilities;
 
 
+#toggle-button::after {
+    content: '';
+    @apply h-32 w-32 rounded-full bg-white absolute left-0 top-0 transform scale-75 transition duration-300;
+}
+
+#toggle-button:checked::after {
+    @apply transform scale-75 translate-x-32;
+}
